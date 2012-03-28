@@ -1,0 +1,24 @@
+The Procedural Content Generation Toolkit
+created by: Brian E. Williams
+
+This Erlang toolkit is intended to be a library of useful modules for creating
+procedural content based on some common algorithms for generating noise and other systems.
+
+Planned Implementations:
+Simplex Noise in 2d, 3d and 4d
+Worley Noise in 2d
+L-Systems
+Cellular Automata Systems
+
+For each system I plan to have
+* Reproducible and seedable generation
+* Good documentation on usage and types
+* Fast, efficient algorithms
+* Selectable algorithms for some modules
+* A re-usable Octave system for combining multiple levels of noise at different scales
+* Citations and references for algorithms and descriptions
+* Example usage (heightmaps, tree structures, maps/mazes, etc)
+
+Completed:
+* Still working on file layout and library stuff
+* Some of 2d simplex noise converted from java 

@@ -1,0 +1,4 @@
+{'*', [{outdir,"ebin"},debug_info]}.
+{'src/*', [{outdir,"ebin"},debug_info]}.
+{'test/*', [{outdir,"ebin"},debug_info]}.
+
